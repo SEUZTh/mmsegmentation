@@ -1,3 +1,9 @@
+'''
+Auther: zth
+Date: 2025-01-06 11:04:16
+LastEditTime:: Do not edit
+Description: 
+'''
 # Copyright (c) OpenMMLab. All rights reserved.
 import warnings
 
@@ -8,7 +14,7 @@ from packaging.version import parse
 from .version import __version__, version_info
 
 MMCV_MIN = '2.0.0rc4'
-MMCV_MAX = '2.2.0'
+MMCV_MAX = '2.3.0'
 MMENGINE_MIN = '0.5.0'
 MMENGINE_MAX = '1.0.0'
 
