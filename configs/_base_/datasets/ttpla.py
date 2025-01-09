@@ -6,7 +6,7 @@ Description:
 '''
 # dataset settings
 dataset_type = 'TTPLADataset'
-data_root = '/Volumes/T7/毕业设计/数据集/ttpla-DatasetNinja/chasedb1_format'
+data_root = '/media/zth/T7/毕业设计/数据集/ttpla-DatasetNinja/chasedb1_format'
 img_scale = (3840, 2160)
 crop_size = (512, 512)
 train_pipeline = [
@@ -48,7 +48,7 @@ tta_pipeline = [
 ]
 
 train_dataloader = dict(
-    batch_size=4,
+    batch_size=2,
     num_workers=4,
     persistent_workers=True,
     sampler=dict(type='InfiniteSampler', shuffle=True),
